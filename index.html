@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>lab № 3 module 2</title>
+		<style>
+			.block-one{
+				background-color:aqua;
+				width: 100%;
+				height:50px;
+			}
+			.block-two{
+				background-color:pink;
+				width:100%;
+				height: 50px;
+			}
+			button {
+				background: pink;
+				border-radius: 4px;
+				padding: 8px 16px;
+				border-color: aqua;
+				cursor: pointer;
+			}
+			#mig {
+				color: #00677e;
+			}
+		</style>
+		
+	</head>
+	<body>
+		Список дел на воскресенье:
+		<ol id="spisok"></ol>
+	
+		<button onclick="run()">morning run</button>
+		<button onclick="theatre()">theatre</button>
+		<button onclick="exhibition()">exhibition</button>
+		
+		<br><br>
+		
+		<div class="block-one" onclick="aqua()" id="block">Assesment 2</div>
+		
+		<br>
+		
+		<div class="block-two" onclick="pink()" id="oooy">Number labs</div>
+		
+		<div id="mig">Да, я много не знаю! Но ведь я не сдаюсь!</div>
+		
+		<script src="js/script3.js"></script>
+	</body>
+</html>
